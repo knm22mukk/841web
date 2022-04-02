@@ -1,7 +1,7 @@
 import { NextPage } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { MobileNav } from '@components/MobileNav';
+import MobileNav from '@components/MobileNav';
 import { headerNavLinks } from '@data/headerNavLinks';
 import { siteMetaData } from '@data/siteMetaData';
 

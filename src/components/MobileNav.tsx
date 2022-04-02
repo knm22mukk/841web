@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { MdClose, MdMenu } from 'react-icons/md';
 import { headerNavLinks } from '@data/headerNavLinks';
 
-export const MobileNav = () => {
+const MobileNav = () => {
   const [open, setOpen] = useState<boolean>(false);
 
   const handleClick = () => {
@@ -43,3 +43,5 @@ export const MobileNav = () => {
     </div>
   );
 };
+
+export default MobileNav;
