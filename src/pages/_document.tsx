@@ -29,7 +29,7 @@ class MyDocument extends Document {
           <meta name='msapplication-config' content='/favicons/browserconfig.xml' />
           <meta name='theme-color' content='#ffffff' />
         </Head>
-        <body>
+        <body className='bg-zinc-50'>
           <Main />
           <NextScript />
         </body>

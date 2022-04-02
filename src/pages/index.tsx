@@ -1,12 +1,11 @@
 import type { NextPage } from 'next';
-import { AiFillHome } from 'react-icons/ai';
+import Layout from '@components/Layout';
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <h1 className='text-red-900'>ホームです。</h1>
-      <AiFillHome />
-    </div>
+    <Layout>
+      <h1 className='h-[500px]'>これはホームです</h1>
+    </Layout>
   );
 };
 
