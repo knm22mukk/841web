@@ -4,8 +4,8 @@ type Props = {
 
 const SectionHeader = ({ title }: Props) => {
   return (
-    <div className='py-3 my-3 bg-gray-100 border-l-4 border-indigo-500'>
-      <h4 className='px-3 text-2xl font-bold '>{title}</h4>
+    <div className='py-2 my-2'>
+      <h4 className='px-2 text-xl font-bold border-l-4 border-red-600'>{title}</h4>
     </div>
   );
 };
