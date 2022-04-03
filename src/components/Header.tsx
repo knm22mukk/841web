@@ -7,7 +7,7 @@ import { siteMetaData } from '@data/siteMetaData';
 
 const Header: NextPage = () => {
   return (
-    <header className='flex justify-between items-center py-6 border-b'>
+    <header className='flex justify-around items-center py-6 border-b'>
       <Link href='/' area-label='ToHome'>
         <a>
           <div className='flex justify-between items-center'>
