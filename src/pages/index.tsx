@@ -13,14 +13,14 @@ const Home: NextPage = () => {
       <SEO pageTitle='株式会社橋市 | トップページ' />
       <Image src='/images/hashiich.jpg' alt='hashiichi' width={1280} height={700} className='' />
       <PageHeader title='株式会社橋市とは' />
-      <p className='text-gray-500'>
+      <p className='py-5 text-gray-500'>
         株式会社橋市は主に、厨房機器類・調理道具類・食器類・梱包材料・コンテナー・洗剤類・衛生用品・店舗装飾品文具類・紙袋類・ラッピング資材・使い捨て容器等々の商品を幅広く取り扱っている会社です。
         <br />
         一般の方から業者の方まで購入できる店舗をもちお客様の用途に合わせてあらゆるニーズにお応えいたします。
       </p>
       <PageHeader title='更新情報' />
       <div className='py-8 px-3'>
-        <div className='grid gap-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4'>
+        <div className='grid gap-4 sm:grid-cols-2 md:grid-cols-3'>
           <Card title='テストコンポーネント' />
           <Card title='テストコンポーネント' />
           <Card title='テストコンポーネント' />
