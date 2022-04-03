@@ -25,12 +25,12 @@ const MobileNav = () => {
           open ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
-        <nav className='fixed px-12 mt-8 h-full'>
+        <nav className='fixed px-12 mt-8 w-full h-full'>
           {headerNavLinks.map((link) => (
-            <div key={link.title} className='mt-3 text-center'>
+            <div key={link.title} className='mt-5'>
               <Link href={link.href}>
                 <a
-                  className='flex text-lg font-bold tracking-wide hover:text-indigo-600'
+                  className='flex justify-center text-lg font-bold tracking-wide hover:text-indigo-600'
                   onClick={handleClick}
                 >
                   {link.title}
