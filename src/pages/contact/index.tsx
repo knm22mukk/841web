@@ -1,14 +1,20 @@
 import Button from '@components/Button';
 import Layout from '@components/Layout';
 import PageHeader from '@components/PageHeader';
+import { SEO } from '@components/SEO';
 
 const Contact = () => {
   const contactSubmit = (e: any) => {
     e.preventDefault();
     console.log('お問い合わせ送信');
   };
+
   return (
     <Layout>
+      <SEO
+        pageTitle='株式会社橋市 | お問合せ'
+        pageDescription='株式会社橋市へのお問い合わせはこちらのページからお願いいたします。'
+      />
       <PageHeader title='お問い合わせページ' />
       <p className='text-sm text-gray-500'>
         お問い合わせはこちらからお願いいたします。

@@ -1,10 +1,15 @@
 import Image from 'next/image';
 import Layout from '@components/Layout';
 import PageHeader from '@components/PageHeader';
+import { SEO } from '@components/SEO';
 
 const Recruit = () => {
   return (
     <Layout>
+      <SEO
+        pageTitle='株式会社橋市 | 求人情報'
+        pageDescription='株式会社橋市では一緒に働いていただける方を募集しています。詳しくはお問い合わせをお願いいたします。'
+      />
       <PageHeader title='求人情報' />
       <div className='py-12 text-center'>
         <Image

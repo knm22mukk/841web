@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { SEO } from '../../components/SEO';
 import Layout from '@components/Layout';
 import PageHeader from '@components/PageHeader';
 import SectionHeader from '@components/SectionHeader';
@@ -6,6 +7,10 @@ import SectionHeader from '@components/SectionHeader';
 const Products = () => {
   return (
     <Layout>
+      <SEO
+        pageTitle='株式会社橋市 | 店舗取扱商品'
+        pageDescription='株式会社橋市の店舗取扱商品をご紹介します。掲載している商品はほんの一部になりますのでお探しのアイテムがありましたらお気軽にお問い合わせください'
+      />
       <PageHeader title='店舗取扱商品' />
       <SectionHeader title='各種ポリ袋' />
       <div className='flex flex-col justify-center items-center py-3 sm:flex-row'>
