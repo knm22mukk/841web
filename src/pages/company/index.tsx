@@ -12,8 +12,8 @@ const Company = () => {
         pageTitle='株式会社橋市 | 会社概要'
         pageDescription='株式会社橋市の会社概要をご案内いたします。'
       />
-      <PageHeader title='会社概要' />
       <Image src='/images/hashiich.jpg' alt='hashiichi' width={1280} height={700} className='' />
+      <PageHeader title='会社概要' />
       <table className='my-5 w-full table-auto'>
         <tbody>
           <tr>
